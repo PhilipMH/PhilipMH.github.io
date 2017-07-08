@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Velkommen!</title>
+    <link href="mainstyle.css" type="text/css" rel="Stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Old+Standard+TT" />
+    <link rel="icon" type="image/png" href="and.png" />
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Hjem</a></li>
+      <li class="dropdown">
+	  <a href="javascript:void(0)" class="dropbtn">Opskrifter</a>
+	  <div class="dropdown-content">
+	    <a href="#">Froderen leverpostejsmad</a>
+		</div>
+	  </li>
+      <li class="dropdown">
+      <a href="Spil/spil.html" class="dropbtn">Spil</a>
+      <div class="dropdown-content">
+          <a href="Spil/fabriksbestyrer/fabriksbestyrer.html">Fabriksbestyrer</a>
+      </div>
+      </li>
+	  <li style="float:right"><a href="om.html">Om</a></li>+
+    </ul>
+	<img class="startbillede" src="kilroy.png" alt="Et billede af Kilroy med denne tekst neden under: 'Kilroy var her'" width=800 height=600>
+	<h1 id="introduktion"></h1>
+	<script>
+    var t = new Date().getHours();
+	if (t > 20) {
+	document.getElementById("introduktion").innerHTML = "Godnat og velkommen til Phillips hjemmeside!";
+	}  else if (t >= 16 ) {
+	document.getElementById("introduktion").innerHTML = "Godaften og velkommen til Phillips hjemmeside!";
+	} else if (t >= 13) {
+	document.getElementById("introduktion").innerHTML = "Godeftermiddag og velkommen til Phillips hjemmeside!";
+	} else if (t == 12) {
+	document.getElementById("introduktion").innerHTML = "Godmiddag og velkommen til Phillips hjemmeside!";
+	} else if (t >= 10 ) {
+	document.getElementById("introduktion").innerHTML = "Godformiddag og velkommen til Phillips hjemmeside!";
+	} else {
+	document.getElementById("introduktion").innerHTML = "Godmorgen og velkommen til Phillips hjemmeside!";
+	}
+	</script>
+	<h2>Denne hjemmeside har jeg lavet for at øve mig i et programmere, og for at jeg ikke skal sidde og besvime af kedsomhed. Jeg vil gerne udvide den løbende, og som du nok kan se så er den allerede smuk som en svane :-)</h2>
+	
+	
+   </body>
+ </html>
